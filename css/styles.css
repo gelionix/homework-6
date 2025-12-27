@@ -1,1 +1,55 @@
 @import url(recet.css);
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    background:  #0C151D;
+    color: #FFFFFF;
+}
+
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title{
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+.header{
+    padding: 47px 0 46px;
+    font-size: 22px;
+}
+
+.header-logo{
+    float: left;
+}
+
+.header-logo, .header-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-list{
+    float: right;
+    font-size: 0;
+}
+
+.header-item{
+    display: inline-block;
+    font-size: 22px;
+}
+
+.header-item.header-item{
+    margin-left: 40px;
+    /* через "+" не працює */
+}
+
+/* .header-button{
+    background-color: #0C151D;
+    border: none;
+    padding: 0;
+    float: right;
+} */
