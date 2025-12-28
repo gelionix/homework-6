@@ -65,7 +65,17 @@ body{
 }
 .hero-title-info{
     margin: 0 45px 0;
+    text-align: left;
 }
+
+.hiro-title-name{
+    font-size: 46px;
+}
+
+.hiro-title-position{
+    font-size: 22px;
+}
+
 
 .hero-title-info, .hiro-title-foto{
     display: inline-block;
