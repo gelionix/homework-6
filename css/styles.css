@@ -55,6 +55,23 @@ body{
     margin-left: 40px;
 } */
 
+.hero-title{
+    text-align: center;
+}
+
+.hiro-title-foto-1{
+    border: 6px solid #24A9EB;
+    border-radius: 110px;
+}
+.hero-title-info{
+    margin: 0 45px 0;
+}
+
+.hero-title-info, .hiro-title-foto{
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .portfolio{
     padding: 50px 0 70px;
 }
