@@ -55,32 +55,59 @@ body{
     margin-left: 40px;
 } */
 
-.hero-title{
-    text-align: center;
+.hero{
+    
 }
 
-.hiro-title-foto-1{
+.hero-title{
+    text-align: center;
+    padding: 50px 0 25px;
+}
+
+.hero-title-foto-1{
     border: 6px solid #24A9EB;
     border-radius: 110px;
 }
+
 .hero-title-info{
     margin: 0 45px 0;
     text-align: left;
 }
 
-.hiro-title-name{
+.hero-title-name{
     font-size: 46px;
 }
 
-.hiro-title-position{
+.hero-title-position{
     font-size: 22px;
+    line-height: 33px;
 }
 
+.hero-title-social>a:not(:first-child){
+    margin-left: 26px;
+}
 
-.hero-title-info, .hiro-title-foto{
+.hero-title-info, .hero-title-foto{
     display: inline-block;
     vertical-align: middle;
 }
+
+.hero-description{
+    text-align: center;
+    line-height: 36px;
+    padding: 25px 0 25px;
+}
+
+.hero-description-years, .hero-description-projects, .hero-description-customers{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+    margin: 0 30px 0;
+}
+
+
 
 .portfolio{
     padding: 50px 0 70px;
