@@ -56,22 +56,31 @@ body{
 } */
 
 .hero{
-    
+    padding: 50px 0;
 }
-
 .hero-title{
     text-align: center;
-    padding: 50px 0 25px;
+    font-size: 0;
+}
+
+.hero-title-foto{
+    border: 6px solid #24A9EB;
+    border-radius: 50%;
+    width: 205px;
+    height: 205px;
+    overflow: hidden;
 }
 
 .hero-title-foto-1{
-    border: 6px solid #24A9EB;
-    border-radius: 110px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero-title-info{
     margin: 0 45px 0;
     text-align: left;
+    font-size: 22px;
 }
 
 .hero-title-name{
@@ -84,10 +93,18 @@ body{
 }
 
 .hero-title-social{
-    margin: 12px 0 0;
+    margin-top: 12px;
+    font-size: 0;
 }
+
 .hero-title-social>a:not(:first-child){
     margin-left: 26px;
+}
+
+.hero-title-social>a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
 }
 
 .hero-title-info, .hero-title-foto{
@@ -98,7 +115,7 @@ body{
 .hero-description{
     text-align: center;
     line-height: 36px;
-    padding: 25px 0 25px;
+    margin-top: 50px;
 }
 
 .hero-description-years, .hero-description-projects, .hero-description-customers{
@@ -112,7 +129,7 @@ body{
 
 .hero-button{
     text-align: center;
-    padding: 71px 0 73px;
+    margin-top: 47px;
 }
 
 .hero-download{
@@ -130,10 +147,11 @@ body{
     text-decoration: none;
     margin: 0 20px 0;
     font-size: 22px;
+    display: inline-block;
 }
 
 .portfolio{
-    padding: 50px 0 70px;
+    padding: 50px 0 100px;
 }
 
 .portfolio-title{
@@ -164,19 +182,16 @@ body{
     background-color: #24A9EB;
     color: #0C151D;
     text-align: center;
-    padding: 40px 0 40px;
-}
-
-.about-title{
-    padding: 0 0 30px;
+    padding: 40px 0;
 }
 
 .about-description{
     font-size: 22px;
+    margin-top: 30px;
 }
 
 .footer{
     text-align: center;
-    padding: 50px 0 51px;
+    padding: 50px 0;
     font-size: 22px;
 }
